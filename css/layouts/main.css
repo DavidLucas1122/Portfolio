@@ -1,0 +1,10 @@
+main {
+    width: 100%;
+    padding: 200px 20% 100px;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg,var(--color-secundaria) ,var(--color-back) , var(--color-back), var(--color-secundaria))
+}

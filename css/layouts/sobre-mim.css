@@ -1,0 +1,73 @@
+.sobre {
+    width: 100%;
+    background-color: var(--color-back);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow:
+        0 0px 10px var(--color-primaria),
+        0 0 20px rgba(31, 111, 235, 0.25);
+        opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    animation: fadeUp 3s ease forwards;
+    scroll-margin-top: 230px;
+}
+
+.sobre .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.sobre p {
+    width: 90%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sobre .cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.cursos .cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card-curso {
+    border-radius: 12px;
+    padding: 10px;
+    width: 600px;
+    border-left: 10px solid var(--color-primaria);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.card-curso:hover {
+    box-shadow: 0 13px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+
+.status {
+    font-size: 14px;
+}
+
+.instituicao {
+    color: #666;
+    font-size: 14px;
+}
+
+.card-curso h3 {
+    color: var(--color-primaria);
+}

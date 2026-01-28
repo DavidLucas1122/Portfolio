@@ -1,0 +1,112 @@
+.projetos {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    scroll-margin-top: 230px;
+}
+
+
+.projeto {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.projetos h3 {
+    font-size: 18px;
+}
+.projetos h3 a{
+    color: var(--color-primaria);
+}
+
+.projeto img {
+    width: 60%;
+    border-radius: 18px;
+    object-fit: cover;
+    box-shadow:
+        0 0px 20px var(--color-primaria),
+        0 0 10px rgba(31, 111, 235, 0.25);
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.projeto img:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 0px 30px var(--color-primaria),
+        0 0 20px rgba(41, 120, 255, 0.25);
+}
+
+.projeto h3 {}
+
+.projeto .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.projeto .texts a {
+    width: 120px;
+    position: relative;
+    border: 3px solid var(--color-primaria);
+    padding: 12px 15px 12px 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    color: var(--color-primaria);
+    font-size: 0.9rem;
+    background: transparent;
+    font-weight: 600;
+    transition: transform 0.2s ease, color 0.2s ease, background-color 0.5s ease;
+}
+
+.projeto .texts a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--color-primaria);
+    transition: width 0.5s ease;
+    z-index: 0;
+    color: white;
+}
+
+.projeto .texts a:hover::before {
+    width: 100%;
+}
+
+.projeto .texts a span {
+    position: relative;
+    z-index: 1;
+}
+
+.projeto .texts a:hover {
+    color: white;
+    transform: scale(1.05);
+}
+
+.linguagens {
+    display: flex;
+    gap: 10px;
+}
+
+.linguagens span {
+    padding: 10px;
+    background-color: var(--color-secundaria);
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.2s;
+    box-shadow:
+        0 0px 5px var(--color-primaria),
+        0 0 03px rgba(10, 10, 10, 0.25);
+}
+
+.linguagens span:hover {
+    transform: scale(1.1);
+}

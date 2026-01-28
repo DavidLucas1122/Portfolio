@@ -1,0 +1,13 @@
+:root {
+    /* Cores */
+    --color-back: #e6e6e6;        /* fundo principal (azul escuro) */
+    --color-text-default: #000;
+    --color-primaria: #1F6FEB;   /* azul moderno para destaques */
+    --color-secundaria: #a5c4f0; /* azul claro para textos/fundos */
+
+    /* eb1f63  242424*/
+
+    /* Tipografia */
+    --font-title: 'Poppins', sans-serif;
+    --font-base: 'Inter', sans-serif;
+}

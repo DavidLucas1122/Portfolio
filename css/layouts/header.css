@@ -1,0 +1,108 @@
+header {
+    width: 100%;
+    padding: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    background-color: var(--color-back);
+    box-shadow: 0 0 12px var(--color-primaria);
+}
+
+header h3 {
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: 1;
+}
+
+header h3 span {
+    color: var(--color-primaria);
+}
+
+header nav {
+    display: flex;
+    gap: 80px;
+    animation: fadeUp 2s ease forwards;
+}
+
+header nav a {
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.2s ease;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: var(--color-primaria);
+    transform: scale(1.2);
+}
+
+header .coisas {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color-primaria);
+    padding: 13px 23px 13px 23px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: var(--color-primaria);
+    font-size: 0.9rem;
+    background: transparent;
+    font-weight: 600;
+    transition: transform 0.2s ease, color 0.2s ease, background-color 0.5s ease;
+}
+
+header .coisas::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: var(--color-primaria);
+  transition: width 0.5s ease;
+  z-index: 0;
+  color: white;
+}
+
+header .coisas:hover::before {
+  width: 100%;
+}
+
+header .coisas span {
+  position: relative;
+  z-index: 1;
+}
+
+header .coisas:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tema {
+  width: 80px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: var(--color-primaria);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 12px rgba(0,0,0,.2);
+  transition: transform 0.2s ease;
+}
+
+.tema:hover {
+  transform: scale(1.08);
+}

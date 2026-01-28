@@ -1,0 +1,56 @@
+footer {
+    width: 100%;
+    padding: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: var(--color-back);
+    box-shadow: 0 0 12px var(--color-primaria);
+    flex-direction: column;
+    gap: 70px;
+}
+
+footer img {
+    height: 60px;
+    width: 60px;
+}
+
+footer .redes {
+    display: flex;
+    gap: 30px;
+}
+
+footer .redes a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+}
+footer .redes a:hover  {
+    transform: scale(1.1);
+}
+
+footer .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer span  {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer .text p {
+    font-size: 12px;
+}

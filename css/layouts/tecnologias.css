@@ -1,0 +1,68 @@
+.tecnologias {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+    align-items: center;
+    scroll-margin-top: 230px;
+}
+
+.tecnologias img {
+    height: 70px;
+    width: 70px;
+}
+
+.caixas-tecnologias {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.zoom {
+    width: 48%;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    padding: 30px;
+    box-shadow:
+        0 0px 10px var(--color-primaria),
+        0 0 10px rgba(31, 111, 235, 0.25);
+    border-radius: 15px;
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.area:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 0px 20px var(--color-primaria),
+        0 0 20px rgba(31, 111, 235, 0.25);
+}
+
+.icones_caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.icone {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.icone span {
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+}

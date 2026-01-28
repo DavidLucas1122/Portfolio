@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="./index.js" defer></script>
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    });
+</script>
+
+<body id="inicio">
+    <header>
+        <h3>DAVID <br><span>LUCAS</span></h2>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre Mim</a>
+                <a href="#tecnologias">Tecnologias</a>
+                <a href="#projetos">Projetos</a>
+            </nav>
+            <div class="botoes">
+                <button onclick="trocarTema()" class="tema">
+                    🌙 / ☀️
+                </button>
+            </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="text">
+                <h1>Engenheiro de software</h1>
+                <p>Transformo lógica e design em interfaces modernas, responsivas e de
+                    alta usabilidade. Atualmente cursando Desenvolvimento de Sistemas no
+                    SENAI Jandira, com sólida base organizacional vinda da área
+                    administrativa.
+                </p>
+                <a href="#sobre">
+                    <button>
+                        <span>Saber Mais</span>
+                    </button>
+                </a>
+            </div>
+            <div class="foto">
+                <img src="img/foto.png" alt="">
+            </div>
+        </section>
+        <section id="sobre" class="sobre">
+            <div class="text">
+                <h2>Sobre Mim</h2>
+                <p>Unindo a precisão da Administração à criatividade do Desenvolvimento de Software, foco
+                    em construir aplicações que não apenas funcionam, mas proporcionam uma experiência
+                    fluida ao usuário.</p>
+
+                <p>Minha trajetória começou na ETEC, onde desenvolvi uma visão estratégica de processos e organização.
+                    Hoje, aplico essa disciplina no código, prezando por estruturas limpas e design funcional. Busco
+                    constantemente evoluir como desenvolvedor Full-Stack, e minha maior qualidade está na criação de
+                    interfaces modernas.
+                </p>
+            </div>
+            <div class="cursos">
+                <h2>Principais Cursos</h2>
+                <div class="cards">
+                    <div class="card-curso">
+                        <div class="status">CURSANDO</div>
+                        <h3>Desenvolvimento de Sistemas</h3>
+                        <p class="instituicao">SENAI Jandira</p>
+                        <span class="ano">Previsão: 2026</span>
+                    </div>
+                    <div class="card-curso">
+                        <div class="status">CONCLUÍDO</div>
+                        <h3>Ensino Médio<br> Técnico em Administração</h3>
+                        <p class="instituicao">ETEC de Itapevi</p>
+                        <span class="ano">Conclusão: 2025</span>
+                    </div>
+                    <div class="card-curso">
+                        <div class="status">CONCLUÍDO</div>
+                        <h3>Desenvolvimento Front-End</h3>
+                        <p class="instituicao">SENAI + EUROFARMA</p>
+                        <span class="ano">Conclusão: 2024</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tecnologias" class="tecnologias">
+            <h2>Tecnologias e Habilidades</h2>
+
+            <div class="caixas-tecnologias">
+                <div data-aos="zoom-in-up" class="zoom">
+                    <div class="area">
+                        <h3>Front-End</h3>
+                        <div class="icones_caixa">
+                            <div class="icone">
+                                <img src="./img/HTML5.png" alt="HTML">
+                                <span>HTML5</span>
+                            </div>
+
+                            <div class="icone">
+                                <img src="./img/CSS3.png" alt="CSS">
+                                <span>CSS</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/js.png" alt="CSS">
+                                <span>JS</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/figma.png" alt="Figma">
+                                <span>Figma</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/tailwind.png" alt="Tailwind">
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/react.png" alt="React">
+                                <span>React <br> (em aprendizado)</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/api.png" alt="API">
+                                <span>Consumo de API</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-up" class="zoom">
+                    <div class="area">
+                        <h3>Back-End</h3>
+                        <div class="icones_caixa">
+                            <div class="icone">
+                                <img src="./img/node-js.png" alt="Node.js">
+                                <span>Node.JS</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/js.png" alt="CSS">
+                                <span>JS</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/api.png" alt="APIs">
+                                <span>Criação de API</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/Swagger.png" alt="Swagger">
+                                <span>Swagger</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/deploy.png" alt="Deploy">
+                                <span>Deploy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-up" class="zoom">
+                    <div class="area">
+                        <h3>Banco de Dados</h3>
+                        <div class="icones_caixa">
+                            <div class="icone">
+                                <img src="./img/mysql.png" alt="MySQL">
+                                <span>MySql</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/modelagem.png" alt="Modelagem de Dados">
+                                <span>Modelagem de Dados</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in-up" class="zoom">
+                    <div class="area">
+                        <h3>Ferramentas</h3>
+                        <div class="icones_caixa">
+                            <div class="icone">
+                                <img src="./img/git.png" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/github.png" alt="GitHub">
+                                <span>Github</span>
+                            </div>
+                            <div class="icone">
+                                <img src="./img/postman.png" alt="Postman">
+                                <span>Postman</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projetos" class="projetos">
+            <h2>Projetos</h2>
+            <div data-aos="fade-right" class="animation-projeto">
+                <div class="projeto">
+                    <img src="./img/Pokewiki.png" alt="">
+                    <div class="texts">
+                        <h2>Projeto POKEWIKI</h2>
+                        <p>Uma pokedex com filtragem avançada (por tipo, geração ou nome), informações, sprites normais
+                            e shinys
+                            de todos os Pokémons! Site alimentado pela PokéAPI.
+                        </p>
+                        <a href="https://github.com/DavidLucas1122/Poke_WIKI?tab=readme-ov-file">
+                            <span>Ver Projeto</span>
+                        </a>
+                        <div class="linguagens">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="animation-projeto">
+                <div class="projeto">
+                    <img src="./img/preview.png" alt="">
+                    <div class="texts">
+                        <h2>Projeto ECOURBIS</h2>
+                        <p>Este projeto consiste no desenvolvimento de uma Landing Page institucional para a EcoUrbis,
+                            criada como
+                            parte de uma atividade acadêmica na ETEC de Itapevi.
+                        </p>
+                        <a href="https://github.com/DavidLucas1122/Ecourbis-Landing-Page">
+                            <span>Ver Projeto</span>
+                        </a>
+                        <div class="linguagens">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-right" class="animation-projeto">
+                <div class="projeto">
+                    <img src="./img/preview_loja.png" alt="">
+                    <div class="texts">
+                        <h2>Projeto OLX</h2>
+                        <p>Simulação do design do site da OLX, desenvolvida no curso de Desenvolvimento de Sistemas no
+                            SENAI de Jandira, com foco em consumo de dados JSON simulados para listagem de produtos.
+                            Projeto voltado ao aprendizado de front-end e estrutura visual, sem funcionalidades reais.
+                        </p>
+                        <a href="https://github.com/DavidLucas1122/Loja-Front">
+                            <span>Ver Projeto</span>
+                        </a>
+                        <div class="linguagens">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="animation-projeto">
+                <div class="projeto">
+                    <img src="./img/preview_camera.png" alt="">
+                    <div class="texts">
+                        <h2>Projeto Camera Evo 4.0</h2>
+                        <p>Landing Page de um anúncio da Câmera Evo 4.0, com estilização feita totalmente com
+                            Tailwind.CSS e 100% responsiva.
+                        </p>
+                        <a href="https://github.com/DavidLucas1122/Camera-Evo-4.0">
+                            <span>Ver Projeto</span>
+                        </a>
+                        <div class="linguagens">
+                            <span>HTML</span>
+                            <span>TAILWIND CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Mais projetos no meu  <a href="https://github.com/DavidLucas1122">Github</a></h3>
+        </section>
+    </main>
+    <footer>
+        <p>Se interessou? Entre em contato agora!</p>
+        <div class="redes">
+            <a href="https://github.com/DavidLucas1122">
+                <img src="./img/github.png" alt="">
+                <span>DavidLucas1122</span>
+            </a>
+            <a href="mailto:davidlucased@gmail.com?subject=Contato através do Site">
+                <img src="./img/gmail.png" alt="Enviar e-mail para David Lucas">
+                <span>davidlucased@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/david-lucas-19370727b/">
+                <img src="./img/linkedin.png" alt="">
+                <span>David Lucas</span>
+            </a>
+        </div>
+        <div class="text">
+            <p>© 2026 Todos os direitos reservados.</p>
+            <p>
+                Feito por David Lucas</p>
+        </div>
+    </footer>
+</body>
+
+</html>
