@@ -71,3 +71,67 @@
 .card-curso h3 {
     color: var(--color-primaria);
 }
+
+@media (max-width: 1024px) {
+  .sobre {
+    padding: 32px;
+  }
+
+  .sobre p {
+    width: 100%;
+  }
+
+  .cursos .cards {
+    gap: 20px;
+  }
+
+  .card-curso {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .sobre {
+    padding: 28px;
+    gap: 24px;
+  }
+
+  .cursos .cards {
+    flex-direction: column;
+  }
+
+  .card-curso {
+    width: 100%;
+  }
+
+  .card-curso:hover {
+    transform: scale(1.03);
+  }
+}
+
+
+@media (max-width: 480px) {
+  .sobre {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .sobre h2 {
+    text-align: center;
+  }
+
+  .sobre p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .card-curso {
+    padding: 14px;
+  }
+
+  .status,
+  .instituicao {
+    font-size: 13px;
+  }
+}

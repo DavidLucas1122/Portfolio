@@ -54,3 +54,59 @@ footer span  {
 footer .text p {
     font-size: 12px;
 }
+
+
+@media (max-width: 1024px) {
+  footer {
+    padding: 40px 6%;
+    gap: 50px;
+  }
+
+  footer img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  footer {
+    padding: 32px 5%;
+    gap: 40px;
+  }
+
+  footer .redes {
+    gap: 24px;
+  }
+
+  footer p,
+  footer span {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  footer {
+    padding: 28px 4%;
+    gap: 30px;
+  }
+
+  footer .redes {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer img {
+    width: 44px;
+    height: 44px;
+  }
+
+  footer span {
+    font-size: 13px;
+  }
+
+  footer .text p {
+    font-size: 11px;
+  }
+}

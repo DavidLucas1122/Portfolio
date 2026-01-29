@@ -66,3 +66,63 @@
     font-weight: 800;
     text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .zoom {
+    width: 100%;
+  }
+
+  .tecnologias img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .area {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tecnologias {
+    gap: 32px;
+  }
+
+  .area {
+    padding: 20px;
+  }
+
+  .icones_caixa {
+    gap: 16px;
+  }
+
+  .icone span {
+    font-size: 11px;
+  }
+
+  .area:hover {
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width: 480px) {
+  .tecnologias h2 {
+    text-align: center;
+  }
+
+  .tecnologias img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .area {
+    padding: 18px;
+  }
+
+  .icones_caixa {
+    gap: 12px;
+  }
+
+  .icone span {
+    font-size: 10px;
+  }
+}

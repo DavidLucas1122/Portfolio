@@ -20,10 +20,11 @@
 }
 .projetos h3 a{
     color: var(--color-primaria);
+    transition: transform 0.2s ease;
 }
 
 .projeto img {
-    width: 60%;
+    max-width: 60%;
     border-radius: 18px;
     object-fit: cover;
     box-shadow:
@@ -39,7 +40,6 @@
         0 0 20px rgba(41, 120, 255, 0.25);
 }
 
-.projeto h3 {}
 
 .projeto .texts {
     display: flex;
@@ -109,4 +109,78 @@
 
 .linguagens span:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .projetos {
+    padding: 24px;
+    gap: 40px;
+  }
+
+  .projeto {
+    gap: 24px;
+  }
+
+  .projeto img {
+    width: 50%;
+  }
+
+  .projeto .texts {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projeto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .projeto img {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .projeto .texts {
+    align-items: center;
+  }
+
+  .linguagens {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .projeto img:hover {
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width: 480px) {
+  .projetos {
+    padding: 20px;
+    gap: 32px;
+  }
+
+  .projeto img {
+    max-width: 100%;
+  }
+
+  .projeto .texts {
+    gap: 18px;
+  }
+
+  .projeto .texts p {
+    font-size: 15px;
+  }
+
+  .projeto .texts a {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .linguagens span {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
 }
