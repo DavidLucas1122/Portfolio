@@ -148,6 +148,7 @@
 @media (max-width: 480px) {
   main {
     padding: 130px 6% 50px;
+    width: 100%;
   }
 
   .hero {

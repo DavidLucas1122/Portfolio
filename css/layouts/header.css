@@ -110,7 +110,9 @@ header nav a:hover {
 /* Celulares */
 @media (max-width: 480px) {
   header {
-    gap: 13px;
+    padding: 18px;
+    width: 100vw;
+    position: fixed;
     padding-left: 1%;
     padding-right: 1%;
   }
