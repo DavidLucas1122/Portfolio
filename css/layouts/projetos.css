@@ -123,6 +123,7 @@
 
   .projeto img {
     width: 50%;
+    max-height: 100%;
   }
 
   .projeto .texts {
