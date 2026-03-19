@@ -20,8 +20,7 @@ O portfólio funciona como uma vitrine online, permitindo que recrutadores e vis
 
 - ⚛️ HTML5  
 - 🎨 CSS3  
-- 💻 JavaScript  
-- 🌬️ Tailwind CSS  
+- 💻 JavaScript 
 
 ## 📸 Preview
 
